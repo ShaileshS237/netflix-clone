@@ -1,0 +1,31 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>movieinfo</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content style="--background: #161616">
+  <ion-grid>
+    <ion-row style="color: white">
+      <ion-col size="4">
+        <div style="height: 215px; overflow: hidden">
+          <img
+            style="width: 200px; height: 300px; object-fit: cover"
+            [src]="data.imageLink"
+            alt=""
+          />
+        </div>
+      </ion-col>
+      <ion-col size="8">
+        <h4
+          style="font-size: 22px; font-weight: bold"
+          (click)="redirectToVideo(data)"
+        >
+          {{data.name}}
+        </h4>
+        <h6 style="font-weight: 300">{{data.year}} {{data.watchtime}}</h6>
+        <p style="font-weight: 400">{{data.discrption}}</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

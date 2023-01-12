@@ -1,0 +1,7 @@
+{
+  "name": "varivas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
