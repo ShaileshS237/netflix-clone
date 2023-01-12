@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-
-
 ## Dependencies
 Angular(Ionic for Mobile).
 Express.
