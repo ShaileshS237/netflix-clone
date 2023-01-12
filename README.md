@@ -10,7 +10,7 @@ Google Cloud.<br />
 ## Instructions for running the code:
 
 Make sure you have Angular 2+ and Node.js installed on your machine<br />
-Clone the repository and navigate to the root directory<br />
+Clone the repository and navigate to the /frontend and /backend directory seprately<br />
 Run `npm install` to install the necessary dependencies<br />
 Start the MongoDB server on your machine<br />
 Run `ionic serve` to start the Angular/Ionic development server<br />
